@@ -82,7 +82,8 @@
     "prefer-const": true,
     "quotemark": [
       true,
-      "single"
+      "single",
+      "double"
     ],
     "radix": true,
     "semicolon": [
@@ -118,12 +119,14 @@
       true,
       "attribute",
       "app",
+      "db",
       "camelCase"
     ],
     "component-selector": [
       true,
       "element",
       "app",
+      "db",
       "kebab-case"
     ],
     "use-input-property-decorator": true,

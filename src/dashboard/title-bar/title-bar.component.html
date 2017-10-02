@@ -1,0 +1,22 @@
+
+<div *ngIf="!screenService.isLarge()" class="title-bar-small">
+  <span class="fa fa-bars"
+        (click)="menuService.toggleLeftSideMenu()">
+
+  </span>
+  <div class="small-image-holder">
+    <img class="small-image" src="assets/images/Jim.jpg" title="Jim McQuarrie">
+  </div>
+  <span class="fa fa-ellipsis-v"></span>
+</div>
+
+<div *ngIf="screenService.isLarge()" class="title-bar">
+  <img id="title-image" src="assets/images/Jim.jpg" alt="Jim McQuarrie">
+  <h2 id="title-name">JIM MCQUARRIE</h2>
+  <div class="menu-area">
+    <db-top-bar></db-top-bar>
+    <db-menu *ngIf="!menuService.isVertical">
+
+    </db-menu>
+  </div>
+</div>

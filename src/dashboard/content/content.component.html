@@ -1,0 +1,9 @@
+<db-menu
+  *ngIf="menuService.isVertical && screenService.isLarge()
+   || menuService.showingLeftSideMenu && !screenService.isLarge()"
+  class="vertical-menu">
+</db-menu>
+
+<div class="body-style">
+  <router-outlet></router-outlet>
+</div>

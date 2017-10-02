@@ -1,0 +1,11 @@
+<a *ngFor="let icon of dashboardConfigService.socialIcons"
+   [href]="icon.link"
+   [title]="icon.alt" target="_blank">
+  <img class="top-image"
+       [src]="icon.imageFile"
+       [alt]="icon.alt">
+</a>
+
+<div *ngIf="dashboardConfigService.showUserControls">
+  <!--<span>SIGN IN</span>-->
+</div>
