@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { Injectable } from '@angular/core';
 
 export interface MenuItem {
@@ -25,31 +24,3 @@ export class MenuService {
   }
 
 }
-=======
-import { Injectable } from '@angular/core';
-
-export interface MenuItem {
-  text: string,
-  icon: string,
-  route: string,
-  submenu: Array<MenuItem>
-}
-
-@Injectable()
-export class MenuService {
-
-  items: Array<MenuItem>;
-  isVertical = true;
-  showingLeftSideMenu = false;
-
-  toggleLeftSideMenu() : void {
-    this.isVertical = true;
-    this.showingLeftSideMenu = !this.showingLeftSideMenu;
-  }
-
-  toggleMenuOrientation() {
-    this.isVertical = !this.isVertical;
-  }
-
-}
->>>>>>> 826ec3ec95212f4c7bde8fd4146852f2fe049167
