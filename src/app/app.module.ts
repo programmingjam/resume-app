@@ -13,7 +13,10 @@ import {
   MdCardModule, MdExpansionModule, MdIconModule, MdInputModule, MdStepperModule,
   MdTabsModule
 } from '@angular/material';
+<<<<<<< HEAD
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+=======
+>>>>>>> 826ec3ec95212f4c7bde8fd4146852f2fe049167
 
 @NgModule({
   declarations: [
@@ -24,8 +27,11 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
   ],
   imports: [
     BrowserModule,
+<<<<<<< HEAD
     FormsModule,
     ReactiveFormsModule,
+=======
+>>>>>>> 826ec3ec95212f4c7bde8fd4146852f2fe049167
     BrowserAnimationsModule,
     DashboardModule,
     MdTabsModule,

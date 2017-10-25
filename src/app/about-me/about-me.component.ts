@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
+<<<<<<< HEAD
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+=======
+>>>>>>> 826ec3ec95212f4c7bde8fd4146852f2fe049167
 
 @Component({
   selector: 'app-about-me',
@@ -8,6 +11,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 })
 export class AboutMeComponent {
 
+<<<<<<< HEAD
   isLinear = false;
   firstFormGroup: FormGroup;
   secondFormGroup: FormGroup;
@@ -27,4 +31,6 @@ export class AboutMeComponent {
     });
   }
 
+=======
+>>>>>>> 826ec3ec95212f4c7bde8fd4146852f2fe049167
 }

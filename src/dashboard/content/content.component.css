@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :host {
   display: flex;
   background-color: #f1f1f1;
@@ -8,3 +9,15 @@
   padding: 10px;
   flex-grow: 1;
 }
+=======
+:host {
+  display: flex;
+  background-color: #f1f1f1;
+  flex-grow: 1;
+}
+
+.body-style {
+  padding: 10px;
+  flex-grow: 1;
+}
+>>>>>>> 826ec3ec95212f4c7bde8fd4146852f2fe049167
