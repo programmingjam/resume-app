@@ -1,15 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
-  selector: 'dashboard-body',
+  selector: 'db-dashboard-body',
   templateUrl: './dashboard-body.component.html',
   styleUrls: ['./dashboard-body.component.css']
 })
-export class DashboardBodyComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
+export class DashboardBodyComponent {
 
 }
